@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Podcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body" >
+    <nav class="nav-container flex justify-content ">
+        <img class="margin-left-100px" src="/images/logo.svg" width="36px" alt="">
+        <ul id="nav-desktop" class=" nav-lista flex align-items margin-right-100px font-ibm-mono rem-paragraph ">
+            <li class="margin-right-43px"><a href="#section-episodios">EPISODIOS</a></li>
+            <li class="margin-right-43px"><a href="#section-nosotros">NOSOTROS</a></li>
+            <li class="margin-right-43px"><a href="#section-entrevistas">ENTREVISTAS</a></li>
+            <li><a href="#section-topicos">TÓPICOS</a></li>
+        </ul>    
+    </nav>
+    <div class="position-nav" id="nav-toggle">
+        <input id="toggle" type="checkbox">
+        <label for="toggle">
+            <div class="nav-toggle-container">
+                <div class="line line-top"></div>
+                <div class="line line-med"></div>
+                <div class="line line-bottom"></div>
+            </div>
+            <div class="nav-toggle-options flex felx-column justify-content-evenly">
+                <a class="white rem-paragraph font-ibm-mono"  href="#section-episodios">EPISODIOS</a>
+                <a class="white rem-paragraph font-ibm-mono" href="#section-nosotros">NOSOTROS</a>
+                <a class="white rem-paragraph font-ibm-mono" href="#section-entrevistas">ENTREVISTAS</a>  
+                <a class="white rem-paragraph font-ibm-mono" href="#section-topicos">TÓPICOS</a>
+            </div>
+        </label>
+    </div> 
+    <div class="section-1 flex felx-column justify-content-center">
+        <h1 class=" margin-left-200px rem-title font-ibm-sans ">Hello <span class="tachado">world</span> pale blue dot <span class="color-dot">.</span></h1>
+        <p class="  margin-left-200px line-height rem-paragraph font-ibm-mono bajada-titulo1">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <a class="  margin-left-200px medida-likn-btn" href="#section-nosotros"><button class="button-conoce font-ibm-mono rem-4 "> CONOCÉ MÁS</button></a> 
+    </div>
+    <div  id="section-episodios" class="episodios-container flex felx-column justify-content-center">
+        <div class="path-episodios"></div>
+        <h1 class="rem-subtitle white font-ibm-sans margin-left-200px margin-bottom-26px">Episodios</h1>
+        <div class="flex felx-column align-items ">
+            <div class="  iframe-container flex flex-wrap justify-content justify-content-evenly">
+                <iframe class=" size-iframe margin-bottom-72px" src="https://open.spotify.com/embed-podcast/episode/3cIhZ6mz5GaTAt7KlplCY0"  
+                    frameborder="0" 
+                    allowtransparency="true" 
+                    allow="encrypted-media">
+                </iframe>
+                <iframe class=" size-iframe margin-bottom-72px" src="https://open.spotify.com/embed-podcast/episode/0h29jd9RgqJM9bOgZh69mj" 
+                    frameborder="0" 
+                    allowtransparency="true" 
+                    allow="encrypted-media">
+                </iframe>
+                <iframe class=" size-iframe margin-bottom-72px" src="https://open.spotify.com/embed-podcast/episode/4MqG4qOyS3rYewtbyoKB4E" 
+                    frameborder="0" 
+                    allowtransparency="true" 
+                    allow="encrypted-media">
+                </iframe>
+                <iframe class=" size-iframe margin-bottom-72px" src="https://open.spotify.com/embed-podcast/episode/4OhkEOaNKuWvPHcUfOyjPT" 
+                    frameborder="0"
+                    allowtransparency="true" 
+                    allow="encrypted-media">
+                </iframe>
+            </div>
+        </div>  
+    </div>
+    <div id="section-nosotros" class="phone-section flex justify-content-center ">
+        <img  class="size-img-phone" src="/images/phone.png" alt="">
+        <div class="phone-divsion flex justify-content-center felx-column" >
+            <h1 class="rem-subtitle font-ibm-sans ">De dónde venimos</h1>
+            <p class="paragraph-container rem-paragraph font-ibm-mono line-height">
+                Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+            </p>
+        </div>
+    </div>
+    <div id="section-entrevistas" >
+        <h1 class="font-ibm-sans rem-subtitle margin-left-200px margin-top-64px margin-bottom-26p">Invitadas/os estelares</h1>
+        <div class=" invitadas-section flex flex-wrap justify-content-center">
+            <img class="size-img" src="/images/grace-hopper.png"  alt="grace hopper">
+            <img class="size-img" src="/images/Katie-Bouman.png"  alt="kate bouman">
+            <img class="size-img" src="/images/Margaret_Hamilton.png"  alt=" margaret hamilton">
+            <img class="size-img" src="/images/An E.R.A.Univac 1103 computer in the 1950s.png"  alt="computer in the 1950s">
+            <img class="size-img" src="/images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" width="480" alt="">
+            <img class="size-img" src="/images/susan-kare.png"  alt="susan kare">
+        </div>
+    </div>
+    <div id="section-topicos" class=" icon-section flex felx-column justify-content-center ">
+        <h1 class="rem-subtitle font-ibm-sans margin-left-200px margin-bottom-72px ">Algunos de nuestros temas</h1>
+        <div class=" icon flex justify-content-evenly rem-description font-ibm-sans ">
+            <div>
+                <img class="margin-bottom-26px" src="/images/icon1.svg" alt="">
+                <h6>Trabajo remoto</h6>
+            </div>
+            <div class="flex felx-column align-items">
+                <img class="margin-bottom-26px" src="/images/icon2.svg" alt="">
+                <h6>Repensando la <br> programación</h6>
+            </div>
+            <div class="flex felx-column align-items">
+                <img class="margin-bottom-26px" src="/images/icon3.svg" alt="">
+                <h6>Bases del código</h6>
+            </div>
+            <div class="flex felx-column align-items">
+                <img class="margin-bottom-26px" src="/images/icon4.svg" alt="">
+                <h6>Seguridad <br> informática</h6>
+            </div>
+        </div>
+    </div>
+    <div class= "novedades-section flex felx-column justify-content-center align-items ">
+        <div class="path-novedades "></div>
+        <h1 class=" rem-subtitle font-ibm-sans white margin-bottom-45"> ¿Querés las últimas novedades? </h1>
+        <a href="#section-episodios"><button class="button-escucha-episodios"> ESCUCHÁ LOS EPISODIOS</button></a>
+    </div>
+    <div class="footer-section flex justify-content align-items"> 
+        <h6 class=" margin-left-100px rem-paragraph font-ibm-mono"> © 2019— Hello blue pale dot </h6>
+        <div class=" margin-right-100px social-media-section flex justify-content">
+            <img width="18px" src="/images/spotify.svg" alt="">
+            <img width="18px" src="/images/instagram.svg" alt="">
+            <img width="18px" src="/images/twitter.svg" alt="">
+            <img width="18px" src="/images/facebook.svg" alt="">
+            <img width="18px" src="/images/paper-plane.svg" alt="">
+        </div> 
+    </div>
+    
+</body>
+</html>
